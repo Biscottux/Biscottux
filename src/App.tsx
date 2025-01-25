@@ -229,7 +229,7 @@ function App() {
             </p>
             <div className="flex justify-center gap-4">
               <a
-                href="/Bureau/Simon CV.pdf"
+                href="Simon CV.pdf"
                 className="px-6 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors"
               >
                 Curriculum Vitae
