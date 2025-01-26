@@ -21,12 +21,12 @@ function App() {
       icon: <Terminal className="w-12 h-12 text-cyan-500" />,
       image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80",
       skills: [
-        "Installation et configuration de GLPI",
-        "Gestion du parc informatique",
-        "Configuration de PC et tablettes Apple",
-        "Création d'images système Macrium",
-        "Support utilisateur niveau 1 et 2",
-        "Administration Active Directory"
+      "Installation et configuration de serveurs LAMP",
+      "Gestion du parc informatique",
+      "Configuration de PC et tablettes Apple",
+      "Création d'images système Macrium",
+      "Support utilisateur niveau 1 et 2",
+      "Administration Active Directory"
       ]
     },
     {
@@ -34,12 +34,12 @@ function App() {
       icon: <Network className="w-12 h-12 text-cyan-500" />,
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80",
       skills: [
-        "Configuration de switches",
-        "Gestion de VLAN",
-        "Installation et maintenance de baies de brassage",
-        "Remplacement de modules GBIC",
-        "Câblage réseau structuré",
-        "Diagnostic réseau"
+      "Configuration de switches",
+      "Gestion de VLAN",
+      "Installation et maintenance de baies de brassage",
+      "Remplacement de modules GBIC",
+      "Câblage réseau structuré",
+      "Diagnostic réseau"
       ]
     },
     {
@@ -47,12 +47,12 @@ function App() {
       icon: <Lock className="w-12 h-12 text-cyan-500" />,
       image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80",
       skills: [
-        "Formation en cybersécurité",
-        "Sensibilisation au phishing",
-        "Gestion des droits utilisateurs",
-        "Sécurisation des postes de travail",
-        "Mise en place de politiques de sécurité",
-        "Audit de sécurité basique"
+      "Tests de pénétration basiques",
+      "Simulation d'attaques de phishing",
+      "Gestion des droits utilisateurs",
+      "Sécurisation des serveurs LAMP",
+      "Mise en place de politiques de sécurité",
+      "Audit de sécurité basique"
       ]
     },
     {
@@ -72,18 +72,18 @@ function App() {
 
   const projects = [
     {
-      title: "Déploiement GLPI",
-      description: "Mise en place d'un système de gestion de parc informatique pour la Mairie de Joué-lès-Tours",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
-      skills: ["GLPI", "Gestion de parc", "Documentation"],
-      details: "Installation et configuration de GLPI, formation des utilisateurs, mise en place des plugins essentiels, import de l'inventaire existant."
+    title: "Installation d'un serveur LAMP Sécurisé",
+    description: "Mise en place d'une infrastructure LAMP sécurisée pour héberger des applications web",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
+    skills: ["Apache", "MySQL", "PHP", "Sécurité"],
+    details: "Installation et configuration d'un serveur LAMP, mise en place des règles de sécurité, configuration du pare-feu, mise à jour régulière des composants."
     },
     {
-      title: "Refonte Infrastructure Réseau",
-      description: "Modernisation de l'infrastructure réseau de la Faculté de Médecine",
-      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80",
-      skills: ["Réseau", "Câblage", "Configuration"],
-      details: "Refonte complète d'une baie de brassage, remplacement des switches, réorganisation du câblage, documentation de l'infrastructure."
+      title: "Projet Phishing avec Machine Virtuelle Debian",
+    description: "Simulation d'attaques de phishing pour la sensibilisation à la sécurité",
+    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80",
+    skills: ["Debian", "HTTRACK", "phpMyAdmin", "Sécurité"],
+    details: "Configuration d'une machine virtuelle Debian, utilisation de HTTRACK pour le clonage de sites, mise en place d'une base de données phpMyAdmin pour la collecte de données."
     },
     {
       title: "Projets Serveur Active Directory",
@@ -194,7 +194,7 @@ function App() {
             'A propos',
             'Parcours',
             'Certifications',
-            'Stages',
+            'Expériences Professionnelles',
             'Compétences',
             'Projets',
             'BTS SIO',
