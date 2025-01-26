@@ -126,10 +126,12 @@ function App() {
     {
       name: "SecNumAcadémie",
       description: "Certification des 4 modules MOOC (14/06/2023)",
-      url: "https://secnumacademie.gouv.fr/",
-      icon: <Shield className="w-12 h-12 text-cyan-500" />
+      url: "/MOOC.jpg/",
+      icon: <Shield className="w-12 h-12 text-cyan-500" />,
+      image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80"
     }
   ];
+  
 
   const internships = [
     {
@@ -328,7 +330,7 @@ function App() {
         </div>
 
         {/* Expériences professionnelles Section */}
-        <div id="Expériences-professionnelles" className="section py-20 bg-slate-900">
+        <div id="expériences-professionnelles" className="section py-20 bg-slate-900">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-cyan-400 mb-12 text-center">Expériences professionnelles</h2>
             <div className="grid grid-cols-1 gap-8">
@@ -362,7 +364,7 @@ function App() {
         </div>
 
         {/* Compétences Section */}
-        <div id="competences" className="section py-20 bg-slate-800">
+        <div id="compétences" className="section py-20 bg-slate-800">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-cyan-400 mb-12 text-center">Compétences</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
