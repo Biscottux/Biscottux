@@ -235,7 +235,7 @@ function App() {
                 Curriculum Vitae
               </a>
               <a
-                href="/competences"
+                href="/Compétences"
                 className="px-6 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors"
               >
                 Tableau des compétences
@@ -328,7 +328,7 @@ function App() {
         </div>
 
         {/* Expériences professionnelles Section */}
-        <div id="Expériences professionnelles" className="section py-20 bg-slate-900">
+        <div id="Expériences-professionnelles" className="section py-20 bg-slate-900">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-cyan-400 mb-12 text-center">Expériences professionnelles</h2>
             <div className="grid grid-cols-1 gap-8">
