@@ -231,7 +231,7 @@ function App() {
             </p>
             <div className="flex justify-center gap-4">
               <a
-                href="public/Simon_CV.pdf"
+                href="../public/Simon_CV.pdf"
                 target="_blank"
                 className="px-6 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors"
               >
